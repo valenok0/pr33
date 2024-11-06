@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header>
+    <a href="index.html"><div class="logo">Пироги Рязани</div></a>
+    <nav>
+        <ul>
+            <li><a href="goods.html">Товары</a></li>
+            <li><a href="order.html">Заказать</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="login.html">Вход</a></li>
+            <li><a href="register.html">Регистрация</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section class="register-section">
+    <h1>Регистрация</h1>
+    <form class="register-form" action="#" method="post">
+        <label for="first-name">Имя</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Фамилия</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="middle-name">Отчество</label>
+        <input type="text" id="middle-name" name="middle-name">
+
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+
+        <label for="confirm-password">Повтор пароля</label>
+        <input type="password" id="confirm-password" name="confirm-password" minlength="6" required>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">Согласие с <a href="#">политикой конфиденциальности</a></label>
+        </div>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</section>
+
+
+<footer>
+    <div class="footer-logo">Пироги Рязани</div>
+    <p>Рязань, ул. Пирогова, 17</p>
+    <p>Телефон: 8 (4912) 110-203</p>
+    <p>Email: info@pirogi-ryazan.ru</p>
+    <div class="social-links">
+        <a href="#">ВКонтакте</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="goods.html">Товары</a></li>
+            <li><a href="order.html">Заказать</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="login.html">Вход</a></li>
+            <li><a href="register.html">Регистрация</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
